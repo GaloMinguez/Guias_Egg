@@ -1,0 +1,56 @@
+h1{
+    color: rgb(93, 153, 123);
+}
+
+p>strong{
+    color: red;
+}
+.destacado{
+    color: orange;
+}
+
+h2{
+    color: blue;
+}
+
+p>a{
+    color: red;
+}
+P>a>em{
+    font-style: italic;
+    color: blue;
+}
+caption{
+    
+}
+
+table,th,td{
+    width: 500px;
+    height: 25px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+
+th,td>strong{
+    color:  orange;
+    border-color: black;
+}
+
+tfoot>tr>th{
+    color: red;
+}
+#row{
+    color: red;
+}
+
+
+div>p{
+    color: rgb(87, 116, 87);
+}
+div>p>span#especial{
+    color: violet;
+}
+div>p>a{
+    color: green;
+}

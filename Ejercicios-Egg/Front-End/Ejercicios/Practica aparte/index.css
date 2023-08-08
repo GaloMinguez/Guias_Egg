@@ -1,0 +1,19 @@
+body{
+color: greenyellow;
+}
+
+h1{
+    color: red;
+}
+
+/* asi se realizan los comentarios en CSS */
+
+ div { margin: .4em 0; }
+div label { width: 30%; float: left; }
+
+.boton-enviar{
+    text-align: center;
+}
+
+
+
