@@ -3,6 +3,6 @@
 
 var valor = prompt("ingrese algo")
 
-let func = (valor) => console.log(typeof(valor));
+let func = (valor) => console.log(typeof valor);
 
 func(valor);
