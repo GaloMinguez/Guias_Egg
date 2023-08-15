@@ -14,15 +14,16 @@ function libro (ISBN,titulo,autor,paginas){
 }
 
 var libreria = [];
+
 do {
-    var libro = new libro(
+    let libr = new libro(
         ISBN = prompt("ingrese ISBN"),
         titulo = prompt("ingrese titulo"),
         autor = prompt("ingrese autor"),
         paginas = prompt("ingrese cantidad paginas")
     );
 
-    libreria.push(libro)
+    libreria.push(libr)
     var msj = prompt("desea crear otro libro?");
 
 } while (msj != "NO");
@@ -31,5 +32,6 @@ do {
 libreria.forEach(Element => {
    console.log(Element)
 });
+console.log(libreria);
 
 
